@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
+<body class="body-chat">
+    <header class="top-header chat-header">
         <div class="header_top">
             <div class="header_column">
                 <!-- plane icon -->
@@ -49,32 +50,35 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class='chat'>
         <div class="date-divider">
             <span class="date-divider_text">Wednesday, August 2, 2017</span>
         </div>
-        <div class="chat_message-from_me">
-            <span class="caht_message-time">17:55</span>
+        <div class="chat_message chat_message-from_me">
+            <span class="chat_message-time">17:55</span>
             <span class="chat_message-body">Hello! This is a test message</span>
         </div>
-        <div class="chat_message-to-me">
-            <img src="images/kakao_friends.jpg"" class="chat_message-avatar">
+        <div class="chat_message chat_message-to-me">
+            <img src="images/kakao_friends.jpg" class="chat_message-avatar">
             <div class="chat_mesaage-center">
                 <h3 class="chat_message-username">Jaeeun</h3>
                 <span class="chat_message-body">And this an answer</span>
             </div>
-            <span class="caht_message-time">19:30</span>
+            <span class="chat_message-time">19:30</span>
         </div>
     </main>
     <div class="type-message">
-        <i class="fa fa-plus fa-2x"></i>
+        <i class="fa fa-plus fa-lg"></i>
         <div class="type-message_input">
             <input type="text">
-            <i class="far fa-smile"></i>
-            <span class="recor-message">
-                <i class="fa fa-microphone"></i>
+            <i class="far fa-smile fa-lg"></i>
+            <span class="record-message">
+                <i class="fa fa-microphone fa-lg"></i>
             </span>
         </div>
+    </div>
+    <div class="bigScreenText">
+        <span>Please make your screen smaller</span>
     </div>
 </body>
 </html>
